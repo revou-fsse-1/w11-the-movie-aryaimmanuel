@@ -1,18 +1,27 @@
 {
   "name": "themovie",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ZWjvzVL5)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "aryaimmanuel",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
-    "tailwindcss": "^3.2.7"
-  }
+    "tailwindcss": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revou-fsse-1/w11-the-movie-aryaimmanuel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/revou-fsse-1/w11-the-movie-aryaimmanuel/issues"
+  },
+  "homepage": "https://github.com/revou-fsse-1/w11-the-movie-aryaimmanuel#readme"
 }
